@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content = "CodePlayer is a inspiration of codepen.io">
+    <title>CodePlayer</title>
+</head>
+<body>
+    <div id="header">
+        <h1>CodePlayer</h1>
+        <ul id="topBar">
+                <li id="html" class="toggleButton active">HTML</li>
+                <li id="css" class="toggleButton">CSS</li>
+                <li id="js" class="toggleButton">JS</li>
+                <li id="output" class="toggleButton active">Result</li>
+        </ul>
+    </div>
+    <div id="bodyContainer">
+        <textarea id="htmlPanel" class="panel"><p id="paragraph">Hello Word</p></textarea>
+        <textarea id="cssPanel" class="panel hidden">p { color:green; }</p></textarea>
+        <textarea id="jsPanel" class="panel hidden">document.getElementById("paragraph").innerHTML="Hello Laura"</textarea>
+        <iframe id="outputPanel" class="outputPanel"></iframe>   
+    </div>
+</body>
+</html>
